@@ -9,7 +9,7 @@ public class Program {
 
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Entre com a pasta: ");
+		System.out.println("Entre com o caminho da pasta: ");
 		String strPath = sc.nextLine();
 		
 		File path = new File(strPath);
